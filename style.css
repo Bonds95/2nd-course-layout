@@ -121,6 +121,35 @@ body {
   padding-top: 236.36px;
 }
 
+.seasons {
+  min-height: 800px;
+  background: #000915;
+}
+.seasons__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 233.56px;
+}
+.seasons__description {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.seasons__text {
+  max-width: 584px;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -165,5 +194,24 @@ body {
   .content__item {
     width: 343px;
     border-radius: 16px;
+  }
+  .seasons__container {
+    gap: 64px;
+    padding-bottom: 85px;
+    justify-content: center;
+  }
+  .seasons__description {
+    align-items: center;
+  }
+  .seasons__heading {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .seasons__text {
+    text-align: center;
+  }
+  .seasons__image {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
