@@ -60,20 +60,46 @@
             padding-bottom: 85px;
             justify-content: center;
         }
-    
-        &__description{
+
+        &__description {
             align-items: center;
         }
-    
+
         &__heading {
             font-size: 32px;
             line-height: 39px;
         }
-    
-        &__text{
+
+        &__text {
             text-align: center;
         }
-    
+
+        &__image {
+            width: 344px;
+            height: 236px;
+        }
+    }
+
+    .words {
+        &__container {
+            gap: 64px;
+            padding-bottom: 85px;
+            justify-content: center;
+        }
+
+        &__description {
+            align-items: center;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__text {
+            text-align: center;
+        }
+
         &__image {
             width: 344px;
             height: 236px;
@@ -81,4 +107,3 @@
     }
 
 }
-

@@ -142,6 +142,27 @@ body {
   max-width: 584px;
 }
 
+.words {
+  min-height: 800px;
+  background: #000915;
+}
+.words__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 233.56px;
+}
+.words__description {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.words__text {
+  max-width: 584px;
+}
+
 .heading {
   font-style: normal;
   font-weight: 700;
@@ -211,6 +232,25 @@ body {
     text-align: center;
   }
   .seasons__image {
+    width: 344px;
+    height: 236px;
+  }
+  .words__container {
+    gap: 64px;
+    padding-bottom: 85px;
+    justify-content: center;
+  }
+  .words__description {
+    align-items: center;
+  }
+  .words__heading {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .words__text {
+    text-align: center;
+  }
+  .words__image {
     width: 344px;
     height: 236px;
   }
