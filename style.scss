@@ -160,7 +160,34 @@ body {
         max-width: 584px;
     }
 
-    
+
+}
+
+.words {
+    min-height: 800px;
+    background: #000915;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 233.56px;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+
+    &__text {
+        max-width: 584px;
+    }
+
+
 }
 
 .heading {
